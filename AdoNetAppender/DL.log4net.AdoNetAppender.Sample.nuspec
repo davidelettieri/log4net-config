@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <title>log4net file appender sample configuration</title>
+    <id>DL.log4net.AdoNetAppender.Sample</id>
+    <version>1.0.0</version>
+    <authors>Davide Lettieri</authors>
+    <owners>Davide Lettieri</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>log4net app.config example configuration for a Ado Net Appender, package source at https://github.com/davidelettieri/log4net-config. Modify app.config or web.config with sample config, readme contains sample code to automatically load the configuration</description>
+    <summary>log4net app.config example configuration for a Ado Net Appender, package source at https://github.com/davidelettieri/log4net-config</summary>
+    <projectUrl>https://logging.apache.org/log4net/</projectUrl>
+    <tags>log4net xml config</tags>
+    <dependencies>
+        <dependency id="log4net" version="2.0.8" />
+    </dependencies>
+    <contentFiles>
+      <files include="content/*.*" buildAction="None" copyToOutput="true" flatten="true" />
+    </contentFiles>
+  </metadata>
+</package>
